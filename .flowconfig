@@ -1,0 +1,9 @@
+[ignore]
+.*\.git\.*
+.*\node_modules\.*
+
+[include]
+src
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
